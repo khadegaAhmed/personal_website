@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    
+</head>
+<body>
+    
+    <div id="header">
+<div class="container  ">
+    <nav class="fixed-nav-bar" id="n">
+       
+       
+       <!--  <label for="check" class="bar">
+            <span class="fa fa-bars" id="bars">  </span>
+            <span  class="fa fa-times" id="times">  </span>
+            
+            
+                    </label>  -->
+                    <img src="media/logo2.png" class="logo">
+                    <div class="search-box">
+                        <input type="search" placeholder="Search here">
+                        <span  class="fa-solid fa-magnifying-glass"> </span>
+                    </div>
+        <ul id="ul">
+            <li><a href="#" class="act" > HOME</a></li>
+            <li id="ul"><a href="#about"  >About</a></li>
+            <li><a href="#services" >Services </a></li>
+            <li><a href="#projects" > Projects</a></li>
+            <li><a href="#contact" > Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()">  </i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()">  </i>
+         
+       
+    </nav>
+   
+    <div class="header-text">
+        
+        <h1> Hello..</br> I'm <span>khadega</span> Jubran </h1>
+        <p> UI/UX Designer</p>
+    </div>
+</div>
+    </div>
+    <div id="about">
+        <div class="container reveal">
+            <div class="row">
+                <div class="about-col-1">
+<img src="media/cv.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>
+                         I'm Khadega jubran, I have skills , experience , client satisfaction , professional design 
+                         fast communication , and many more things that I offer my all clients.
+                         I believe that vigilance in the workplace is the basis for success and is a principle I live through my interests in drawing , meditation  and cultivation.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link active-tab " onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')"> Experience</p>
+                        <p class="tab-links" onclick="opentab('education')"> Education</p>
+                    </div>
+                    <div class="tab-contents active-tab active-link" id="skills">
+                        <ul>
+                            <li> - Computer management and use of office programs  </li>
+                            <li> - Graphic design (photoshop and illustrator) </li>
+                            <li> - Front-end web developed  </li>
+                            <li> - Montage (sony vegas) </li>
+                            <li> - Arduino programming </li>
+                        </ul>
+                        <div class="big-box">
+                            <h3> languages:</br></h3>
+                        <div class="box">
+                            <div class="percent percent1">
+                                <svg>
+                                   <circle cx="70" cy="70" r="30"></circle>
+                                   <circle cx="70" cy="70" r="30"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2> 99 <span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">Arabic</h2>
+                        </div>
+                        <div class="box">
+                            <div class="percent percent2">
+                                <svg>
+                                   <circle cx="70" cy="70" r="30"></circle>
+                                   <circle cx="70" cy="70" r="30"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2> 76 <span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">English</h2>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span> 2017</span> <br> </li>
+                            <li> <span> 2020</span> <br>  </li>
+                            <li> <span>2021</span> <br>  </li>
+                            <li> <span>2022</span> <br> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span> 2014-2015</span> <br> High school science department (Excellent evaluation) </li>
+                            <li> <span> 2015-2016</span> <br> Intermediate Diploma in English Language (Excellent evaluation) </li>
+                            <li> <span> 2019-2020</span> <br> Bachelor of computer science (Excellent evaluation) </li>
+                            <li> <span> 2021-2022</span> <br> Automated secretarial Diploma (Excellent evaluation)</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services-->
+    <div id="services">
+        <div class="container reveal">
+            <h1 class="sub-title"> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-window-restore"></i>
+                    <h2> Front-end web development</h2>
+                    <p>We help you bulid your website ,translate ideas into highly perfect designs</br> If you are looking for the best website design ideas ,we believe you are at the right place</p>
+                    <a href="#"> More details</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>  Designing logos</h2>
+                    <p> We provide you with a logo and visual identity design service, and we work to match your activity and aspirations 
+                        , while making sure to show the brand in the best possible way!</p>
+                    <a href="#"> More details</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-image"></i>
+                    <h2> Social media design </h2>
+                    <p> we provide you with the design of advertising posters and banners in a distinctive and highly creative  design</p>
+                    <a href="#"> More details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects-->
+    <div id="projects">
+        <div class="container reveal">
+            <h1 class="sub-title"> Projects</h1>
+            <div class="tab-titles2 proj">
+                <p class="tab-links colo active-link" onclick="opentab('all')"> All</p>
+                <p class="tab-links colo"  onclick="opentab('Web-Design')"> Web Design</p>
+                <p class="tab-links colo" onclick="opentab('logos')"> Logos</p>
+                <p class="tab-links colo" onclick="opentab('poster')"> Poster </p>
+                <p class="tab-links colo" onclick="opentab('themes')"> Themes </p>
+            </div>
+            <div class="tab-contents active-tab" id="all">
+              <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="media/p1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/pl1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/pl4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/pl2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/pl3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="media/p9.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination 
+                    <div class="swiper-pagination"></div>
+                -->
+            
+                
+                <!-- If we need navigation buttons -->
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+
+            </div>
+            </div>
+            <div class="tab-contents" id="Web-Design">
+                <div class="list">
+                    <div class="work">
+                  <img src="media/web1.jpg">
+                  <div class="layer">
+                  
+                    <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+    
+                <div class="work">
+                    <img src="media/web3.jpg">
+                    <div class="layer">
+                     
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/not1.jpg">
+                    
+                  </div>
+                  <div class="work">
+                    <img src="media/not1.jpg">
+                    
+                  </div>
+                  
+                  </div>
+                  <a href="#" class="btn"> See More <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+
+            <div class="tab-contents" id="logos">
+                <div class="list">
+                    <div class="work">
+                  <img src="media/log1.jpg">
+                  <div class="layer">
+                    <h3> college logo </h3>
+                    <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+    
+                <div  class="work">
+                    <img src="media/log2.jpg">
+                    <div class="layer">
+                        <h3> product logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log3.jpg">
+                    <div class="layer">
+                        <h3> college logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log4.jpg">
+                    <div class="layer">
+                        <h3> program logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log5.jpg">
+                    <div class="layer">
+                        <h3> group logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log6.jpg">
+                    <div class="layer">
+                        <h3> app icon </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log7.jpg">
+                    <div class="layer">
+                        <h3> class logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div  class="work">
+                    <img src="media/log8.jpg">
+                    <div class="layer">
+                        <h3> class logo </h3>
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                 
+                  </div>
+                  <a href="#" class="btn"> See More <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+            <div class="tab-contents" id="poster">
+                <div class="list">
+                    <div  class="work">
+                  <img src="media/po9.jpg">
+                  <div class="layer">
+                    
+                    <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+    
+                <div class="work">
+                    <img src="media/po13.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/po3.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/po10.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/po5.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/po11.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/44.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/po8.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+    
+                  </div>
+                  <a href="#" class="btn"> See More <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+            <div class="tab-contents" id="themes">
+                <div class="list">
+                    <div  class="work">
+                  <img src="media/th1.jpg">
+                  <div class="layer">
+                    
+                    <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+    
+                <div class="work">
+                    <img src="media/th2.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th3.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th4.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th5.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th6.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th9.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="work">
+                    <img src="media/th8.jpg">
+                    <div class="layer">
+                        <a href="#">The details <i class="fa-solid fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+    
+                  </div>
+                  <a href="#" class="btn"> See More <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <div id="contact">
+     <div class="container reveal">
+      <div class="row">
+<div class="contact-left">
+<h1 class="sub-title"> Contact Me</h1>
+<p><i class="fa-regular fa-envelope"></i>  khadega@SEIYUNU.EDU.YE</p>
+<P> <i class="fa-solid fa-mobile-screen-button"></i> 00967736423740</P>
+<div class="social-icon">
+<a href="#"> <i class="fa-brands fa-square-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+<a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+<a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+
+</div>
+<a href="#" class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="YourEmail" required>
+    <textarea  name="message" rows="6"placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+</div>
+       </div>
+     </div>
+<div class="copyright">
+    Created By <span> KHADEGA </span> <div> &copy; 2022 </div>
+</div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+const mynav = document.getElementById("n");
+const myul = document.getElementById("ul");
+window.onscroll=function(){
+if (window.scrollY> 150){
+    mynav.classList.add('scrolled')
+    ul.classList.add('scrolled')
+
+}
+else{
+    mynav.classList.remove('scrolled')
+    myul.classList.remove('scrolled')
+}
+}
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+autoplay:{
+    delay:2000,
+    disableOnInteraction:false,
+},
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+    </script>
+    <script>  
+    var sidemenu= document.getElementById("ul");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+    window.addEventListener('scroll', reveal);
+function reveal(){
+var reveals =document.querySelectorAll('.reveal');
+for (var i=0; i<reveals.length;i++){
+    var windowheight = window.innerHeight;
+    var revealtop= reveals[i].getBoundingClientRect().top;
+    var revealpoint =150;
+    if(revealtop < windowheight - revealpoint){
+        reveals[i].classList.add('active');
+    }
+    else{
+        reveals[i].classList.remove('active');
+
+    }
+}
+
+
+}
+
+    </script>
+</body>
+</html>
