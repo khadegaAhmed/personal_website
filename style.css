@@ -496,7 +496,8 @@ text-align: center;
     }
 .list img{
    
-    width:250px;
+   /* width:250px;*/
+   width: auto;
     height: 260px;
     justify-content: center;
     border-radius: 10px;
@@ -718,7 +719,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(media/main6-min.png);
+        background-image: url(media/min6.png);
     }
     .header-text{
         margin-top: 30%;
@@ -831,9 +832,12 @@ nav .fas{
         margin-top: 50px;
         
     }
+    .work{
+        width: 190px;
+    }
     .list img{
    
-        width:190px;
+        width:auto;
         height: 180px;
         justify-content: center;
         border-radius: 10px;
